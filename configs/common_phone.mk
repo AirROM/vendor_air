@@ -4,7 +4,8 @@ PRODUCT_PACKAGES += \
     NovaLauncher \
     NexusTools \
     CPUBoxDual \
-    AxT9IME
+    AxT9IME \
+    Torch
 
 # Inherit drm blobs
 -include vendor/air/configs/common_drm_phone.mk
