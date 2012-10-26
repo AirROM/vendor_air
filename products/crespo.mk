@@ -19,7 +19,9 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=soju BUILD_FINGERPRINT="google/soju/crespo:4.1.1/JRO03L/113740:user/release-keys" PRIVATE_BUILD_DESC="soju-user 4.1.1 JRO03L 113740 release-keys"
 
 PRODUCT_PACKAGES += \
-    Thinkfree
+    Thinkfree \
+    NexusTools \
+    CPUBoxDual
 
 PRODUCT_COPY_FILES += \
     vendor/air/prebuilt/bootanimation/bootanimation_480_800.zip:system/media/bootanimation.zip
