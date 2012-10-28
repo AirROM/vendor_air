@@ -75,7 +75,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"
             android:layout_height="wrap_content"
-            android:layout_width="150dip"
+            android:layout_width="160dip"
             android:text="@string/recents_app_button_text"/>
 
     <Button android:id="@+id/recents_kill_all_button"
@@ -83,7 +83,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"
             android:layout_height="wrap_content"
-            android:layout_width="150dip"
+            android:layout_width="160dip"
             android:text="@string/recents_kill_all_button_text"/>
 
     <view class="com.android.systemui.recent.LinearColorBar"
