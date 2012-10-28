@@ -24,9 +24,7 @@ PRODUCT_COPY_FILES += \
 
 # Maguro specific packages
 PRODUCT_PACKAGES += \
-    Thinkfree \
-    NexusTools \
-    CPUBoxDual
+    Thinkfree
 
 PRODUCT_COPY_FILES += \
     vendor/air/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip
